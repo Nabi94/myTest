@@ -11,7 +11,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumFirst {
 
 
+    @Epic("User Login")
+    @Feature("Valid login")
+    @Story("User logs in with correct credentials")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
+    @Description("Valid login test with correct username and password")
     public void testSelenium(){
 
         WebDriverManager.chromedriver().setup();

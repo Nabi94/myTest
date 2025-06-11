@@ -9,7 +9,12 @@ import static io.restassured.RestAssured.given;
 
 public class PostMethod extends myAPI {
 
+    @Epic("User Login")
+    @Feature("Valid login")
+    @Story("User logs in with correct credentials")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
+    @Description("Valid login test with correct username and password")
     public void PostMethod(){
 
         myAPI.pathParams("pp1", "posts");

@@ -12,7 +12,12 @@ public class SeleniumDoubleClick {
 
 
 
+    @Epic("User Login")
+    @Feature("Valid login")
+    @Story("User logs in with correct credentials")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
+    @Description("Valid login test with correct username and password")
 
     public void doubleClick(){
 
