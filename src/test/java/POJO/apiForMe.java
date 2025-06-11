@@ -1,4 +1,5 @@
 package POJO;
+import io.qameta.allure.*;
 
 public class apiForMe {
     private int id;

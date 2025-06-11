@@ -2,6 +2,7 @@ import BaseURI.myAPI;
 import POJO.apiForMe;
 import io.restassured.response.Response;
 import org.junit.Test;
+import io.qameta.allure.*;
 
 import static io.restassured.RestAssured.given;
 

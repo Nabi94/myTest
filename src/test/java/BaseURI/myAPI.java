@@ -1,4 +1,5 @@
 package BaseURI;
+import io.qameta.allure.*;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
